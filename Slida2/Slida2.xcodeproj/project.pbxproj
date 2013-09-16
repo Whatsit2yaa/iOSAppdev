@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3666BA817E65DB100160C6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3666BA717E65DB100160C6C /* Foundation.framework */; };
+		C3666BAA17E65DB100160C6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3666BA917E65DB100160C6C /* CoreGraphics.framework */; };
+		C3666BAC17E65DB100160C6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3666BAB17E65DB100160C6C /* UIKit.framework */; };
+		C3666BB217E65DB100160C6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3666BB017E65DB100160C6C /* InfoPlist.strings */; };
+		C3666BB417E65DB100160C6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3666BB317E65DB100160C6C /* main.m */; };
+		C3666BB817E65DB100160C6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3666BB717E65DB100160C6C /* AppDelegate.m */; };
+		C3666BBB17E65DB100160C6C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3666BB917E65DB100160C6C /* Main_iPhone.storyboard */; };
+		C3666BBE17E65DB100160C6C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3666BBC17E65DB100160C6C /* Main_iPad.storyboard */; };
+		C3666BC117E65DB100160C6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3666BC017E65DB100160C6C /* ViewController.m */; };
+		C3666BC317E65DB100160C6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3666BC217E65DB100160C6C /* Images.xcassets */; };
+		C3666BCA17E65DB100160C6C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3666BC917E65DB100160C6C /* XCTest.framework */; };
+		C3666BCB17E65DB100160C6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3666BA717E65DB100160C6C /* Foundation.framework */; };
+		C3666BCC17E65DB100160C6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3666BAB17E65DB100160C6C /* UIKit.framework */; };
+		C3666BD417E65DB100160C6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3666BD217E65DB100160C6C /* InfoPlist.strings */; };
+		C3666BD617E65DB100160C6C /* Slida2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3666BD517E65DB100160C6C /* Slida2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3666BCD17E65DB100160C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3666B9C17E65DB100160C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3666BA317E65DB100160C6C;
+			remoteInfo = Slida2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3666BA417E65DB100160C6C /* Slida2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slida2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3666BA717E65DB100160C6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3666BA917E65DB100160C6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3666BAB17E65DB100160C6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3666BAF17E65DB100160C6C /* Slida2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Slida2-Info.plist"; sourceTree = "<group>"; };
+		C3666BB117E65DB100160C6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3666BB317E65DB100160C6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3666BB517E65DB100160C6C /* Slida2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Slida2-Prefix.pch"; sourceTree = "<group>"; };
+		C3666BB617E65DB100160C6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3666BB717E65DB100160C6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3666BBA17E65DB100160C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C3666BBD17E65DB100160C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C3666BBF17E65DB100160C6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3666BC017E65DB100160C6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3666BC217E65DB100160C6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3666BC817E65DB100160C6C /* Slida2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Slida2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3666BC917E65DB100160C6C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C3666BD117E65DB100160C6C /* Slida2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Slida2Tests-Info.plist"; sourceTree = "<group>"; };
+		C3666BD317E65DB100160C6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3666BD517E65DB100160C6C /* Slida2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slida2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3666BA117E65DB100160C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3666BAA17E65DB100160C6C /* CoreGraphics.framework in Frameworks */,
+				C3666BAC17E65DB100160C6C /* UIKit.framework in Frameworks */,
+				C3666BA817E65DB100160C6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3666BC517E65DB100160C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3666BCA17E65DB100160C6C /* XCTest.framework in Frameworks */,
+				C3666BCC17E65DB100160C6C /* UIKit.framework in Frameworks */,
+				C3666BCB17E65DB100160C6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3666B9B17E65DB100160C6C = {
+			isa = PBXGroup;
+			children = (
+				C3666BAD17E65DB100160C6C /* Slida2 */,
+				C3666BCF17E65DB100160C6C /* Slida2Tests */,
+				C3666BA617E65DB100160C6C /* Frameworks */,
+				C3666BA517E65DB100160C6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3666BA517E65DB100160C6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3666BA417E65DB100160C6C /* Slida2.app */,
+				C3666BC817E65DB100160C6C /* Slida2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3666BA617E65DB100160C6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3666BA717E65DB100160C6C /* Foundation.framework */,
+				C3666BA917E65DB100160C6C /* CoreGraphics.framework */,
+				C3666BAB17E65DB100160C6C /* UIKit.framework */,
+				C3666BC917E65DB100160C6C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3666BAD17E65DB100160C6C /* Slida2 */ = {
+			isa = PBXGroup;
+			children = (
+				C3666BB617E65DB100160C6C /* AppDelegate.h */,
+				C3666BB717E65DB100160C6C /* AppDelegate.m */,
+				C3666BB917E65DB100160C6C /* Main_iPhone.storyboard */,
+				C3666BBC17E65DB100160C6C /* Main_iPad.storyboard */,
+				C3666BBF17E65DB100160C6C /* ViewController.h */,
+				C3666BC017E65DB100160C6C /* ViewController.m */,
+				C3666BC217E65DB100160C6C /* Images.xcassets */,
+				C3666BAE17E65DB100160C6C /* Supporting Files */,
+			);
+			path = Slida2;
+			sourceTree = "<group>";
+		};
+		C3666BAE17E65DB100160C6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3666BAF17E65DB100160C6C /* Slida2-Info.plist */,
+				C3666BB017E65DB100160C6C /* InfoPlist.strings */,
+				C3666BB317E65DB100160C6C /* main.m */,
+				C3666BB517E65DB100160C6C /* Slida2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3666BCF17E65DB100160C6C /* Slida2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C3666BD517E65DB100160C6C /* Slida2Tests.m */,
+				C3666BD017E65DB100160C6C /* Supporting Files */,
+			);
+			path = Slida2Tests;
+			sourceTree = "<group>";
+		};
+		C3666BD017E65DB100160C6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3666BD117E65DB100160C6C /* Slida2Tests-Info.plist */,
+				C3666BD217E65DB100160C6C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3666BA317E65DB100160C6C /* Slida2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3666BD917E65DB100160C6C /* Build configuration list for PBXNativeTarget "Slida2" */;
+			buildPhases = (
+				C3666BA017E65DB100160C6C /* Sources */,
+				C3666BA117E65DB100160C6C /* Frameworks */,
+				C3666BA217E65DB100160C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slida2;
+			productName = Slida2;
+			productReference = C3666BA417E65DB100160C6C /* Slida2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3666BC717E65DB100160C6C /* Slida2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3666BDC17E65DB100160C6C /* Build configuration list for PBXNativeTarget "Slida2Tests" */;
+			buildPhases = (
+				C3666BC417E65DB100160C6C /* Sources */,
+				C3666BC517E65DB100160C6C /* Frameworks */,
+				C3666BC617E65DB100160C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3666BCE17E65DB100160C6C /* PBXTargetDependency */,
+			);
+			name = Slida2Tests;
+			productName = Slida2Tests;
+			productReference = C3666BC817E65DB100160C6C /* Slida2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3666B9C17E65DB100160C6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Georgette Thorsnes";
+				TargetAttributes = {
+					C3666BC717E65DB100160C6C = {
+						TestTargetID = C3666BA317E65DB100160C6C;
+					};
+				};
+			};
+			buildConfigurationList = C3666B9F17E65DB100160C6C /* Build configuration list for PBXProject "Slida2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3666B9B17E65DB100160C6C;
+			productRefGroup = C3666BA517E65DB100160C6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3666BA317E65DB100160C6C /* Slida2 */,
+				C3666BC717E65DB100160C6C /* Slida2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3666BA217E65DB100160C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3666BBE17E65DB100160C6C /* Main_iPad.storyboard in Resources */,
+				C3666BC317E65DB100160C6C /* Images.xcassets in Resources */,
+				C3666BBB17E65DB100160C6C /* Main_iPhone.storyboard in Resources */,
+				C3666BB217E65DB100160C6C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3666BC617E65DB100160C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3666BD417E65DB100160C6C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3666BA017E65DB100160C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3666BC117E65DB100160C6C /* ViewController.m in Sources */,
+				C3666BB817E65DB100160C6C /* AppDelegate.m in Sources */,
+				C3666BB417E65DB100160C6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3666BC417E65DB100160C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3666BD617E65DB100160C6C /* Slida2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3666BCE17E65DB100160C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3666BA317E65DB100160C6C /* Slida2 */;
+			targetProxy = C3666BCD17E65DB100160C6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3666BB017E65DB100160C6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3666BB117E65DB100160C6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3666BB917E65DB100160C6C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3666BBA17E65DB100160C6C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C3666BBC17E65DB100160C6C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3666BBD17E65DB100160C6C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C3666BD217E65DB100160C6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3666BD317E65DB100160C6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3666BD717E65DB100160C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3666BD817E65DB100160C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3666BDA17E65DB100160C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slida2/Slida2-Prefix.pch";
+				INFOPLIST_FILE = "Slida2/Slida2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3666BDB17E65DB100160C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slida2/Slida2-Prefix.pch";
+				INFOPLIST_FILE = "Slida2/Slida2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3666BDD17E65DB100160C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Slida2.app/Slida2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slida2/Slida2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Slida2Tests/Slida2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C3666BDE17E65DB100160C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Slida2.app/Slida2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slida2/Slida2-Prefix.pch";
+				INFOPLIST_FILE = "Slida2Tests/Slida2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3666B9F17E65DB100160C6C /* Build configuration list for PBXProject "Slida2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3666BD717E65DB100160C6C /* Debug */,
+				C3666BD817E65DB100160C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3666BD917E65DB100160C6C /* Build configuration list for PBXNativeTarget "Slida2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3666BDA17E65DB100160C6C /* Debug */,
+				C3666BDB17E65DB100160C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3666BDC17E65DB100160C6C /* Build configuration list for PBXNativeTarget "Slida2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3666BDD17E65DB100160C6C /* Debug */,
+				C3666BDE17E65DB100160C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3666B9C17E65DB100160C6C /* Project object */;
+}
