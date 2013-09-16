@@ -8,13 +8,16 @@
 
 #import "CalculatorViewController.h"
 
-@interface CalculatorViewController ()
-
-@end
-
 @implementation CalculatorViewController
 
-- (void)viewDidLoad
+@synthesize display;
+- (IBAction)digitPressed:(UIButton *)sender {
+    NSString *digit = [sender currentTitle];
+    NSString *currentDisplayText = self.display.text;
+    self.display.text = [self.display.text stringByAppendingString:digit];
+}
+
+- (void)viewDidLoad;
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
