@@ -21,6 +21,7 @@
 		C3ECD8AC17E683E6007988A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3ECD88E17E683E6007988A4 /* UIKit.framework */; };
 		C3ECD8B417E683E6007988A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3ECD8B217E683E6007988A4 /* InfoPlist.strings */; };
 		C3ECD8B617E683E6007988A4 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ECD8B517E683E6007988A4 /* CalculatorTests.m */; };
+		C3ECD8C117E69C43007988A4 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ECD8C017E6950A007988A4 /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C3ECD8B117E683E6007988A4 /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		C3ECD8B317E683E6007988A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3ECD8B517E683E6007988A4 /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		C3ECD8BF17E6950A007988A4 /* CalculatorBrain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		C3ECD8C017E6950A007988A4 /* CalculatorBrain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				C3ECD89917E683E6007988A4 /* CalculatorAppDelegate.h */,
 				C3ECD89A17E683E6007988A4 /* CalculatorAppDelegate.m */,
 				C3ECD89C17E683E6007988A4 /* Main.storyboard */,
+				C3ECD8BF17E6950A007988A4 /* CalculatorBrain.h */,
+				C3ECD8C017E6950A007988A4 /* CalculatorBrain.m */,
 				C3ECD89F17E683E6007988A4 /* CalculatorViewController.h */,
 				C3ECD8A017E683E6007988A4 /* CalculatorViewController.m */,
 				C3ECD8A217E683E6007988A4 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3ECD8C117E69C43007988A4 /* CalculatorBrain.m in Sources */,
 				C3ECD89B17E683E6007988A4 /* CalculatorAppDelegate.m in Sources */,
 				C3ECD89717E683E6007988A4 /* main.m in Sources */,
 				C3ECD8A117E683E6007988A4 /* CalculatorViewController.m in Sources */,
@@ -455,6 +461,7 @@
 				C3ECD8BB17E683E6007988A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3ECD8BC17E683E6007988A4 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +470,7 @@
 				C3ECD8BE17E683E6007988A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
